@@ -5,27 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .mainbox{
+      
+      .mainbox{
             height: 150vh;
             width: 95%;
 
             border: 2px solid black;
 
-            background-image:   url(bgImage.jpeg);
+            /* background-image:   url(bgImage.jpeg);
             background-blend-mode: difference;
             background-repeat: repeat-x repeat-y;
-            background-position: center center;
+            background-position: center center; */
             
         }
+        header{
+            background-color: rgb(120, 120, 120);
+        }
+        .headbt{
+            color: blue;
+        }
+        #spp{
+        color: blue;
+        font-size: small;
+        } 
+        .lefthead{
             
+        }
+        .headimg{
+            
+            height: 15vh;
+            background-image: url(leafs.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 900px 100px;
+        }
     </style>
-
 </head>
 <body>
     <div class="mainbox">
        <header>
+        <button class="headbt" type="button">Moblie Site</button>
+        <button class="headbt" type="button">Sign In</button>
+        <button class="headbt" type="button">Register</button>
+        <button class="" type="button">Text <SPAn id="spp">larger -smaller</SPAn> </button>
+        <select name="" id=""> <option value="">About us</option></select> 
         
-       </header>
+        <select name="" class="lefthead"> <option value=""> Today's News</option></select>
+        <select name="" class="lefthead"> <option value=""> Zolgeist</option> </select>
+        <hr>
+        </header>
+        <div class="headimg">
+            <!-- <img src="leafs.jpeg" alt="leaves image"> -->
+        </div>
+        <hr color="blue">
     </div>
 </body>
 </html>
