@@ -1,0 +1,49 @@
+.mainbox{
+    height: 150vh;
+    width: 85%;
+    align-self: center;
+
+    border: 2px solid black;
+    background-color: gainsboro;
+    /* background-image:   url(bgImage.jpeg);
+    background-blend-mode: difference;
+    background-repeat: repeat-x repeat-y;
+    background-position: center center; */
+    margin-left: 80px;
+}
+header{
+    background-color: rgb(120, 120, 120);
+}
+.headbt{
+    color: blue;
+}
+#spp{
+color: blue;
+font-size: small;
+} 
+.lefthead{
+    float: right;
+}
+.headimg{
+    
+    height: 15vh;
+    background-image: url(leafs.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 900px 100px;
+}
+.gco{
+    font-size: xx-large;
+    color: purple;
+}
+.ss{
+    color: darkorchid;
+}
+#right-element {
+float:right;
+width: 100px;
+}
+.menuSpan{
+    color: #db1dcb;
+
+}

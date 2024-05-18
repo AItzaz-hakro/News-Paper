@@ -4,98 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-      
-      .mainbox{
-            height: 150vh;
-            width: 85%;
-            align-self: center;
-
-            border: 2px solid black;
-            background-color: gainsboro;
-            /* background-image:   url(bgImage.jpeg);
-            background-blend-mode: difference;
-            background-repeat: repeat-x repeat-y;
-            background-position: center center; */
-            margin-left: 80px;
-        }
-        header{
-            background-color: rgb(120, 120, 120);
-        }
-        .headbt{
-            color: blue;
-        }
-        #spp{
-        color: blue;
-        font-size: small;
-        } 
-        .lefthead{
-            float: right;
-        }
-        .headimg{
-            
-            height: 15vh;
-            background-image: url(leafs.jpeg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: 900px 100px;
-        }
-        .gco{
-            font-size: xx-large;
-            color: purple;
-        }
-        .ss{
-            color: darkorchid;
-        }
-       #right-element {
-        float:right;
-        width: 100px;
-        }
-        .menuSpan{
-            color: #db1dcb;
-
-        }
-    </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br ><div class="mainbox">
-       <header>
-        <button class="headbt" type="button">Moblie Site</button>
-        <button class="headbt" type="button">Sign In</button>
-        <button class="headbt" type="button">Register</button>
-        <button class="" type="button">Text <SPAn id="spp">larger -smaller</SPAn> </button>
-        <select name="" id=""> <option value="">About us</option></select> 
+    <div class="mainbox">
+        <header>
+          <button class="headbt" type="button">Moblie Site</button>
+          <button class="headbt" type="button">Sign In</button>
+          <button class="headbt" type="button">Register</button>
+          <button class="" type="button">Text <span id="spp">larger -smaller</span> </button>
+          <select name="" id=""> <option value="">About us</option></select> 
         
-        <select name="" class="lefthead"> <option value=""> Today's News</option></select>
-        <select name="" class="lefthead"> <option value=""> Zolgeist</option> </select>
+          <select name="" class="lefthead"> <option value=""> Today's News</option></select>
+          <select name="" class="lefthead"> <option value=""> Zolgeist</option> </select>
         
         </header>
         
         <div class="headimg"></div>
         
-          <hr>
-           <a href="" class="gco">Gaurdian <span class="ss">.co.pk</span></a>
+    <hr>
+        <a href="" class="gco">Gaurdian <span class="ss">.co.pk</span></a>
             
-           <button id="right-element">search</button>
-           <select name="menu" id="right-element">
-            <option value="">News</option> 
-            <option value="">Sports</option> 
-            <option value="">Buisness</option> 
-            <option value="">Health</option> 
-            <option value="">Architecture</option> 
-            <option value="">Design</option> 
+        <button id="right-element">search</button>
+        <select name="menu" id="right-element">
+           <option value="">News</option> 
+           <option value="">Sports</option> 
+           <option value="">Buisness</option> 
+           <option value="">Health</option> 
+           <option value="">Architecture</option> 
+           <option value="">Design</option> 
         </select>
-           <input name="hello" id="right-element" placeholder="your search Items..." maxlength="20"> </input>
+        <input name="hello" id="right-element" placeholder="your search Items..." maxlength="20"> 
          
-    </br>
-           <p style="font-size: larger;">
+    <br>
+        <p style="font-size: larger;">
              <span class="menuSpan">News |</span>
-             <span >Sport|</span>
+             <span>Sport|</span>
              <span class="menuSpan">Comment |</span>
              <span>Culture |</span>
              <span class="menuSpan">Buisness |</span>
              <span>Money |</span>
-             <span class="menuSpan">Life & Style |</span>
+             <span class="menuSpan">Life &amp; Style |</span>
              <span>Travel |</span>
              <span class="menuSpan">Environment |</span>
              <span>TV |</span>
@@ -106,21 +55,26 @@
              <span class="menuSpan">Jobs</span>
         </p>
         
-        <div class="menuu" style="display:inline-block;">
-            <div  style="display: inline-block; background-color: #db1dcb; font-size: x-large;"> Culture</div>
-            <button>Art & design</button>
+        <div style="display: inline-block; background-color: #db1dcb; font-size: x-large; "> Culture</div>
+        <div class="menuu" style="display:inline-block;" >
+            <button>Art &amp; design</button>
             <button>Books</button>
             <button>Film</button>
             <button>Music</button>
             <button>Stage</button>
             <button>Cuts Blog</button>
-            <button>Tv & radio</button>
+            <button>Tv &amp; radio</button>
             <button>Games</button>
             <button>Blogs</button>
             <button>Podcasts</button>
             <button>Video</button>
         </div>
-        <h1 style="color: crimson;">Culture</h1>
-     </div>
+      
+        <h1 style="color: crimson; height: 4vh; font-weight: bolder; font-size: xx-large;">Culture</h1>
+
+     <hr color="#db1dcb" style="height: 1.5vh;">
+      <h4>Editor's Pick</h4> <br>
+    </div>
+
 </body>
 </html>
