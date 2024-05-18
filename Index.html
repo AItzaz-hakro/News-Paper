@@ -8,15 +8,16 @@
       
       .mainbox{
             height: 150vh;
-            width: 95%;
+            width: 85%;
+            align-self: center;
 
             border: 2px solid black;
-
+            background-color: gainsboro;
             /* background-image:   url(bgImage.jpeg);
             background-blend-mode: difference;
             background-repeat: repeat-x repeat-y;
             background-position: center center; */
-            
+            margin-left: 80px;
         }
         header{
             background-color: rgb(120, 120, 120);
@@ -29,7 +30,7 @@
         font-size: small;
         } 
         .lefthead{
-            
+            float: right;
         }
         .headimg{
             
@@ -39,10 +40,25 @@
             background-repeat: no-repeat;
             background-size: 900px 100px;
         }
+        .gco{
+            font-size: xx-large;
+            color: purple;
+        }
+        .ss{
+            color: darkorchid;
+        }
+       #right-element {
+        float:right;
+        width: 100px;
+        }
+        .menuSpan{
+            color: #db1dcb;
+
+        }
     </style>
 </head>
 <body>
-    <div class="mainbox">
+    <br ><div class="mainbox">
        <header>
         <button class="headbt" type="button">Moblie Site</button>
         <button class="headbt" type="button">Sign In</button>
@@ -52,12 +68,59 @@
         
         <select name="" class="lefthead"> <option value=""> Today's News</option></select>
         <select name="" class="lefthead"> <option value=""> Zolgeist</option> </select>
-        <hr>
+        
         </header>
-        <div class="headimg">
-            <!-- <img src="leafs.jpeg" alt="leaves image"> -->
+        
+        <div class="headimg"></div>
+        
+          <hr>
+           <a href="" class="gco">Gaurdian <span class="ss">.co.pk</span></a>
+            
+           <button id="right-element">search</button>
+           <select name="menu" id="right-element">
+            <option value="">News</option> 
+            <option value="">Sports</option> 
+            <option value="">Buisness</option> 
+            <option value="">Health</option> 
+            <option value="">Architecture</option> 
+            <option value="">Design</option> 
+        </select>
+           <input name="hello" id="right-element" placeholder="your search Items..." maxlength="20"> </input>
+         
+    </br>
+           <p style="font-size: larger;">
+             <span class="menuSpan">News |</span>
+             <span >Sport|</span>
+             <span class="menuSpan">Comment |</span>
+             <span>Culture |</span>
+             <span class="menuSpan">Buisness |</span>
+             <span>Money |</span>
+             <span class="menuSpan">Life & Style |</span>
+             <span>Travel |</span>
+             <span class="menuSpan">Environment |</span>
+             <span>TV |</span>
+             <span class="menuSpan">Blogs |</span>
+             <span>Data |</span>
+             <span class="menuSpan">Mobile |</span>
+             <span>Offer |</span>
+             <span class="menuSpan">Jobs</span>
+        </p>
+        
+        <div class="menuu" style="display:inline-block;">
+            <div  style="display: inline-block; background-color: #db1dcb; font-size: x-large;"> Culture</div>
+            <button>Art & design</button>
+            <button>Books</button>
+            <button>Film</button>
+            <button>Music</button>
+            <button>Stage</button>
+            <button>Cuts Blog</button>
+            <button>Tv & radio</button>
+            <button>Games</button>
+            <button>Blogs</button>
+            <button>Podcasts</button>
+            <button>Video</button>
         </div>
-        <hr color="blue">
-    </div>
+        <h1 style="color: crimson;">Culture</h1>
+     </div>
 </body>
 </html>
