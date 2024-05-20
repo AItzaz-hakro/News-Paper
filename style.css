@@ -53,5 +53,9 @@ width: 100px;
     width: 33%;
     height: 80vh;
     border-top: 1px solid #db1dcb;
+    
     border-right: 1px solid black;
+}
+.imgg img{
+    
 }
